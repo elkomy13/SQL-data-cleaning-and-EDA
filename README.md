@@ -125,3 +125,8 @@ Comprehensive analysis to uncover trends, patterns, and insights:
 1. **Setup**: Execute `Cleaning Data.sql` first to create clean dataset
 2. **Analysis**: Run queries from `EDA.sql` to generate insights
 3. **Customization**: Modify queries to explore specific dimensions of interest
+
+
+## License
+
+This project is available for educational and portfolio purposes.
