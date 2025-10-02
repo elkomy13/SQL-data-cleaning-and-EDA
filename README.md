@@ -95,4 +95,33 @@ Comprehensive analysis to uncover trends, patterns, and insights:
 - Converted dates to proper format for temporal analysis
 
 ### Analytical Insights
-- Identified companies with complete
+- Identified companies with complete workforce elimination (100% laid off)
+- Notable findings include startups with significant funding that went out of business
+- Tracked rolling totals to understand cumulative impact over time
+- Revealed year-over-year trends and seasonal patterns in layoffs
+
+---
+
+## Database Schema
+
+### Primary Table: `layoffs_cleaned_v2`
+
+| Column | Type | Description |
+|--------|------|-------------|
+| company | VARCHAR | Company name |
+| location | VARCHAR | City/location of layoffs |
+| industry | VARCHAR | Industry sector |
+| total_laid_off | INT | Number of employees laid off |
+| percentage_laid_off | DECIMAL | Percentage of workforce laid off |
+| date | DATE | Date of layoff event |
+| stage | VARCHAR | Company funding stage |
+| country | VARCHAR | Country location |
+| funds_raised_millions | DECIMAL | Total funds raised in millions |
+
+---
+
+## How to Use
+
+1. **Setup**: Execute `Cleaning Data.sql` first to create clean dataset
+2. **Analysis**: Run queries from `EDA.sql` to generate insights
+3. **Customization**: Modify queries to explore specific dimensions of interest
